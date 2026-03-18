@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etMovieId" android:hint="Movie ID" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etName" android:hint="Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etLanguage" android:hint="Language" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etYear" android:hint="Year" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etCategory" android:hint="Category" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etDuration" android:hint="Duration" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etIMDB" android:hint="IMDB Ratings" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSaveBasic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+
+    </LinearLayout>
+</ScrollView>

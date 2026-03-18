@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etCast" android:hint="Cast" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etDirector" android:hint="Director" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etMusic" android:hint="Music" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etProducer" android:hint="Producer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSaveAdditional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+
+    </LinearLayout>
+</ScrollView>
